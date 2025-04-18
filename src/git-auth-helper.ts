@@ -351,7 +351,7 @@ class GitAuthHelper {
 
   private async removeGitConfig(
     configKey: string,
-    submoduleOnly: boolean = false
+    submoduleOnly = false
   ): Promise<void> {
     if (!submoduleOnly) {
       if (
